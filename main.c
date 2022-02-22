@@ -20,7 +20,6 @@ d. Unmask the port by setting the IME field in the GPIOIM register.
 
 Interrupt Tasterabfrage (TM4C123GH6PM)
 
-Lucas Giesecke
 */
 
 #include "io.h"
@@ -37,7 +36,7 @@ int main()
   
   while(1)
   {
-    GPIO_PORTF_DATA_BITS_R[LED_GREEN] = LED_GREEN; //STATUS LED GRÜN WENN INTERRUPT KOMMT ROT (hier mit array zugriff)
+    GPIO_PORTF_DATA_BITS_R[LED_GREEN] = LED_GREEN; //STATUS LED GRÃœN WENN INTERRUPT KOMMT ROT (hier mit array zugriff)
     
   }
   return 0;
